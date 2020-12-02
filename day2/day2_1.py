@@ -11,10 +11,3 @@ for i in range(num):
         valid_p += 1
 
 print(valid_p)
-
-
-
-
-
-
-

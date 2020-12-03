@@ -10,7 +10,6 @@ def treecalc(right, down):
         mapinput[i] = mapinput[i] * copynum
 
     treenum = 0
-
     for j in range(actspace):
         if (mapinput[down*j][right*j]) == '#':
             treenum += 1

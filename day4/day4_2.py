@@ -66,8 +66,8 @@ def passport_check(check):
     return(all(checklist))
 
 new_validnum = 0
-for j in range(len(valid_passports)):
-    if passport_check(valid_passports[j]):
+for pp in valid_passports:
+    if passport_check(pp):
         new_validnum += 1
 
 print(new_validnum)

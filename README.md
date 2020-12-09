@@ -6,3 +6,5 @@ DAY 3 - ✓✓
 DAY 4 - ✓✓  
 DAY 5 - ✓✓  
 DAY 6 - ✓✓  
+DAY 7 - --  
+DAY 8 - ✓✓   

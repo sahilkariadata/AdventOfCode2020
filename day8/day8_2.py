@@ -25,7 +25,6 @@ for j in jmpnoparray:
     inst_num = 0
     inst_array = []
     new_instructions = instrchange(j)
-    #print(new_instructions)
     while inst_num not in inst_array:
         oper, arg = new_instructions[inst_num].split()
         if oper == 'acc':

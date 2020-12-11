@@ -6,7 +6,7 @@ adaptershift = adapters[1:]
 adaptershift.append(adapters[-1]+3)
 
 differences = np.array(adaptershift) - np.array(adapters)
-differences = np.append(differences,min(adapters))
+differences = np.insert(differences,0,min(adapters))
 ones = np.count_nonzero(differences == 1)
 threes = np.count_nonzero(differences == 3)
 print(ones*threes)
